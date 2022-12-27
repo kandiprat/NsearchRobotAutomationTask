@@ -33,3 +33,9 @@ validate page contains text
   FOR    ${text}  IN  @{textList}
     Page Should Contain    ${text}
   END
+
+get end point and get response
+  [Arguments]  ${endPoint}   ${expected_status_code}
+  &{Header}=  create dictionary  Content-Type=application/json
+  ${response}=  GET On Session   localhost  url=${endPoint}  headers=${Header}   expected_status=${expected_status_code}
+  [Return]    ${response}
