@@ -67,4 +67,4 @@ Validate tax relief of person with gender female and having age at least 76
   validate tax relief with roundoff value  Testdata/TaxRelief/Atleast76Female.json  0.05  500
 
 Validate min tax relief of a person is 50
-  validate tax relief with roundoff value  Testdata/TaxRelief/MinTaxRelief.json  1  0
+  validate min tax relief with roundoff value  Testdata/TaxRelief/MinTaxRelief.json  1  0

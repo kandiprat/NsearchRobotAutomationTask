@@ -5,7 +5,9 @@ Library    SeleniumLibrary
 Resource    ../Keywords/UserStory3.resource
 
 Test Setup    Launch browser
-Test Teardown    Clear Database
+Test Teardown    Run Keywords    Clear Database
+...  AND     Close browser
+
 
 *** Test Cases ***
 Validate CSV file upload is successful with single record details
