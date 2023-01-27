@@ -1,4 +1,4 @@
-# NsearchRobotAutomationTask
+# PracticeRobotAutomationTask
 
 ## How to setup
 1. Make sure Python 3.9 and above, and pip are installed in your system.
